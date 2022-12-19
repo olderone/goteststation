@@ -1,0 +1,6 @@
+bash
+^ +\.\/(|z|da|tc|c|k)sh$
+cat /etc/shadow
+^\s*<\/etc\/shadow\s+grep\s+([a-z]|[A-Z]|[0-9]|\:|\/)+$
+cat ~/.bash_history
+(cat|vim|vi|nano)\s+.*\.\w+_history
