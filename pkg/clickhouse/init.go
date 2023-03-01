@@ -16,8 +16,8 @@ func GetConn() (conn driver.Conn, err error) {
 		Addr: []string{"10.34.11.32:9000"},
 		Auth: clickhouse.Auth{
 			Database: "default",
-			Username: "admin",
-			Password: "topsec!518",
+			Username: "default",
+			Password: "",
 		},
 		DialContext: func(ctx context.Context, addr string) (net.Conn, error) {
 			//dialCount++

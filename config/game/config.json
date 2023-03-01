@@ -1,0 +1,27 @@
+{
+  "bulletWidth": 3,
+  "bulletHeight": 15,
+  "bulletSpeedFactor": 1,
+  "maxBulletNum": 10,
+  "bulletInterval": 50,
+  "bulletColor": {
+    "r": 80,
+    "g": 80,
+    "b": 80,
+    "a": 255
+  },
+  "screenWidth": 640,
+  "screenHeight": 480,
+  "title": "外星入侵",
+  "bgColor": {
+    "r": 230,
+    "g": 230,
+    "b": 230,
+    "a": 255
+  },
+  "shipSpeedFactor": 3,
+  "AlienSpeedFactor": 2,
+  "TitleFontSize": 16,
+  "FontSize": 12,
+  "SmallFontSize": 8
+}
